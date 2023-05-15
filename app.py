@@ -18,8 +18,6 @@ def parse_data(data_str):
             return datetime.strptime(data_str, "%Y-%m-%d %H:%M:%S")
     return data_str
 
-
-
 # Função para adicionar uma nova atividade
 def adicionar_atividade():
     atividade = entry_atividade.get()
