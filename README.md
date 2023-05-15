@@ -37,7 +37,9 @@ The purpose of this project is to facilitate the visualization and monitoring of
 This project is still in the development stage and using the following technologies
 
 Python3
+
 matplotlib
+
 tkinter
 
 ## :information_source: About
@@ -47,6 +49,7 @@ This code aims to create a graphical interface for configuring and displaying a 
 ## ☕ Project Proposal
 
 _Main features_
+
 This code was developed with the purpose of creating a graphical interface for configuring and displaying a Gantt chart. The Gantt chart is commonly used to visualize the schedule of activities in projects, where each activity is represented by a horizontal bar indicating the time period during which the activity occurs.
 
 The project proposed by this code allows the addition, editing, and deletion of activities through the graphical interface. The activities are stored in a list called "atividades" and can be viewed both in the Gantt chart and in a list within the window.
