@@ -22,6 +22,7 @@ The purpose of this project is to facilitate the visualization and monitoring of
 
 <p align="center">
 <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#information_source">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#information_source">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#do-it-yourself">Project Proposal</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#status">Development Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -36,11 +37,39 @@ The purpose of this project is to facilitate the visualization and monitoring of
 
 This project is still in the development stage and using the following technologies
 
-Python3
+- [Python3](https://www.python.org/)
+- [matplotlib](https://matplotlib.org/)
+- [Tkinter](https://docs.python.org/3/library/tkinter.html)
 
-matplotlib
+## :information_source: How To Use
 
-tkinter
+Certifique-se de que o arquivo .sh tenha permissões de execução. Caso contrário, você pode usar o comando chmod para conceder as permissões necessárias. Por exemplo:
+
+To clone and download all project directories you can use [Git](https://git-scm.com), or any other specific program.
+
+To clone the current directory use the command:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/aragonxpd154/graph-gantt-generation
+```
+Make sure that the file install_dependencies.sh has execution permissions. Otherwise, you can use the chmod command to grant the necessary permissions. For example:
+
+```bash
+chmod +x install_dependencies.sh
+```
+Open a terminal and navigate to the directory where the install_dependencies.sh file is located.
+
+Execute the installation script using the following command:
+
+```bash
+./install_dependencies.sh
+```
+This will execute the script, which will update the repositories, install the necessary packages (such as Python 3, pip3, and matplotlib), and then run the specified Python script (replace "app.py" with the actual name of your Python script).
+
+Make sure that the Python script file is in the same directory as the install_dependencies.sh file, or provide the full path to the Python script file in the execution command within the .sh file.
+
+Note: Ensure that you have administrator privileges (sudo) to execute the installation commands in the install_dependencies.sh script in Linux.
 
 ## :information_source: About
 
@@ -49,7 +78,6 @@ This code aims to create a graphical interface for configuring and displaying a 
 ## ☕ Project Proposal
 
 _Main features_
-
 This code was developed with the purpose of creating a graphical interface for configuring and displaying a Gantt chart. The Gantt chart is commonly used to visualize the schedule of activities in projects, where each activity is represented by a horizontal bar indicating the time period during which the activity occurs.
 
 The project proposed by this code allows the addition, editing, and deletion of activities through the graphical interface. The activities are stored in a list called "atividades" and can be viewed both in the Gantt chart and in a list within the window.
