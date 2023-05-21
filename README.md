@@ -43,8 +43,6 @@ This project is still in the development stage and using the following technolog
 
 ## :information_source: How To Use
 
-Certifique-se de que o arquivo .sh tenha permissões de execução. Caso contrário, você pode usar o comando chmod para conceder as permissões necessárias. Por exemplo:
-
 To clone and download all project directories you can use [Git](https://git-scm.com), or any other specific program.
 
 To clone the current directory use the command:
