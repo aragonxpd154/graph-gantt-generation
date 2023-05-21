@@ -60,7 +60,8 @@ def excluir_atividade():
     if atividade_selecionada:
         atividade_index = atividade_selecionada[0]
         atividades.pop(atividade_index)
-        update_grafico()
+        # Removendo bug de abrir uma nova tela com coordenadas de graficos vazia toda vez que for excluir uma atividade
+        #update_grafico()
         update_listbox()
         clear_fields()
         save_activities()
